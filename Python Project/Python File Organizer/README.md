@@ -21,10 +21,10 @@
 </ol>
 
 <h2>📸 Before Organizing</h2>
-<img src="Python Project/Python File Organizer/Download Before Organization.png" alt="Before organizing" width="600">
+<img src="/Download Before Organization.png" alt="Before organizing" width="600">
 
 <h2>📸 After Organizing</h2>
-<img src="Python Project/Python File Organizer/Download After Organization.png" alt="After organizing" width="600">
+<img src="/Download After Organization.png" alt="After organizing" width="600">
 
 <h2>📂 Example Output</h2>
 <p>Files are grouped into folders like:</p>
