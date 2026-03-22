@@ -3,7 +3,7 @@ import shutil
 
 down_path = input("enter the path where u want to work: ")
 
-# 🔹 Count before organizing
+# Count before organizing
 files = 0
 folders = 0
 
@@ -24,7 +24,7 @@ print("Files:", files)
 print("Folders:", folders)
 
 
-# 🔹 Organize inside each folder
+# Organize inside each folder
 for root, dirs, down_files in os.walk(down_path):
 
     for file in down_files:
@@ -59,4 +59,4 @@ for root, dirs, down_files in os.walk(down_path):
 
         shutil.move(file_path, os.path.join(dest_folder, file))
 
-print("✅ Organized inside each folder")
+print("Organized inside each folder")
