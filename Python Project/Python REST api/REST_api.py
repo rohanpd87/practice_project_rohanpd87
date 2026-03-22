@@ -31,10 +31,10 @@ weather_data = [
 
 # Print table manually
 print("\n" + "=" * 45)
-print(f"{'Parameter':<22} | {'Value':<20}")
+print(f"{'Parameter':<22} | {'Value':<22}")
 print("=" * 45)
 
 for key, value in weather_data:
-    print(f"{key:<22} | {str(value):<20}")
+    print(f"{key:<22} | {str(value):<22}")
 
 print("=" * 45)
