@@ -16,7 +16,7 @@ and displays it in a clean, formatted table in the terminal.
 
 <hr>
 
-<h2>🛠 Tech Stack</h2>
+<h2>Tech Stack</h2>
 <ul>
   <li>Python</li>
   <li>Requests</li>
@@ -37,7 +37,7 @@ project-folder/
 
 <hr>
 
-<h2>etup Instructions</h2>
+<h2>Setup Instructions</h2>
 
 <h3>1. Clone the repository</h3>
 <pre>
