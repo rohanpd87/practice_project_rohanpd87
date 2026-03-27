@@ -5,4 +5,4 @@
 # ignoring idea (pycharm) directory
 .idea/
 # ignoring sample file
-/Python Project/Python Weather API/weather_sample_dict.py
+Python Project/Python Weather API/weather_sample_dict.py
