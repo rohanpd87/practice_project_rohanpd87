@@ -12,6 +12,7 @@ and displays it in a clean, formatted table in the terminal.
   <li>Fetch live weather data using REST API</li>
   <li>Display formatted output in terminal</li>
   <li>Shows temperature, humidity, wind, pressure, and more</li>
+  <li>Convert into a web API (Flask)</li>
 </ul>
 
 <hr>
@@ -106,8 +107,6 @@ Sunset Time          | 18:35
 <ul>
   <li>Add support for multiple cities</li>
   <li>Save output to CSV/JSON</li>
-  <li>Add better error handling</li>
-  <li>Convert into a web API (Flask)</li>
 </ul>
 
 <hr>
@@ -118,6 +117,7 @@ Sunset Time          | 18:35
   <li>Parsing JSON data</li>
   <li>Handling environment variables</li>
   <li>Building CLI-based Python applications</li>
+  <li>Convert into a web API (Flask)</li>
 </ul>
 
 <hr>
