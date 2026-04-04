@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import time   # ✅ added
+import time
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'}
 
@@ -18,7 +18,7 @@ top_section = soup.find("div", class_="hero-package-2__list")
 
 data = []
 
-# 🔹 Function to get summary
+# Function to get summary
 def get_summary(article_url):
     try:
         res = requests.get(article_url, headers=headers)
@@ -38,7 +38,7 @@ def get_summary(article_url):
         return "Request failed"
 
 
-# 🔹 Main scraping
+# Main scraping
 if top_section:
     for tag in top_section.select("a.loop-card__title-link")[:10]:
 
@@ -59,11 +59,11 @@ if top_section:
             "summary": summary
         })
 
-        time.sleep(1)   # ✅ delay after each request
+        time.sleep(1)   # delay after each request
 
 
-# 🔹 Save
+# Save
 df = pd.DataFrame(data)
 df.to_csv("techcrunch_news.csv", index=False)
 
-print("\n✅ Data saved to techcrunch_news.csv")
+print("†Data saved to techcrunch_news.csv")
